@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Great Vibes', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'Signika Negative', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playball', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif;
+
+font-family: 'MonteCarlo', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Source Sans 3', sans-serif;
+}
+body{
+    height: 3000px;
+}
+
+a{
+    text-decoration: none;
+}
+.head{
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    color: #1c7571 !important;
+    
+}
+.header{
+    font-weight: bold;
+}
+.line{
+    width: 80px;
+    height: 3px;
+    background-color: #249791;
+    margin: auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.head:hover  .line{
+    transform: scalex(1.5);
+    -webkit-transform: scalex(1.5);
+    -moz-transform: scalex(1.5);
+    -ms-transform: scalex(1.5);
+    -o-transform: scalex(1.5);
+}
+.card1{
+      margin: auto;
+      border: none;
+      border-radius:20px ;
+      -webkit-border-radius:20px ;
+      -moz-border-radius:20px ;
+      -ms-border-radius:20px ;
+      -o-border-radius:20px ;
+      max-height: 50% !important;
+      box-shadow: 0px 0px 10px 1px gainsboro;
+      
+}
+
+.card1 img{
+    height: 50%;
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.card1:hover img{
+    transform: scale(1.06);
+    -webkit-transform: scale(1.06);
+    -moz-transform: scale(1.06);
+    -ms-transform: scale(1.06);
+    -o-transform: scale(1.06);
+}
+
+.card1 .card-body{
+ /* position: relative; */
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 0px 0px 10px 1px gainsboro;
+    text-align: center;
+    
+}
+.card-title{
+    font-weight: 600;
+}
+.card1 .card-text{
+    color: rgb(150, 149, 149);
+    
+}
+.card1 .card-text small{
+    color: rgba(255, 0, 0, 0.589);
+    margin: 0 10px;
+}
+.card1 .card-body a{
+    width: 90%;
+    /* margin-bottom: auto; */
+    /* position: absolute;
+    bottom: 10px;
+    left: 15px; */
+    background-color: #165d59;
+    border: #165d59;
+    color: white;
+}
+.card1 .card-body a:hover{
+    background-color: #249791;
+    color: white;
+}
+.card1 .card-body .icons{
+    margin-bottom: 10px !important;
+    color: rgb(224, 191, 4);
+}
+
+.card2{
+   border-radius: 10px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   -ms-border-radius: 10px;
+   -o-border-radius: 10px;
+   
+}
+.card-header{
+    color: #165d59;
+    font-weight: 600;
+}
+.card2 #items{
+    color: #1c7571;
+    
+}
+
+
+.card2 .btn{
+    width: 50%;
+    margin: auto;
+    background-color: #165d59;
+    border: #165d59;
+    color: white;
+    display: none;
+  
+}
+.card2 .btn:hover{
+    background-color: #249791;
+    color: white;
+    
+}
+.priceCard{
+    border-color: #1c7571a1;
+    display: none;
+    margin: auto;
+    text-align: center;
+    color: red ;
+}
+.priceCard .card-title{
+    width: 45%;
+    color: #1c7571;
+    border:  1px solid #1c7571b6;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    font-size: 15px;
+}
+.jsPrice{
+    color: red;
+}
